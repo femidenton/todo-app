@@ -1,0 +1,79 @@
+
+/* .inputText_box input{
+    display: inline;
+    padding: 1rem;
+    margin: 1.2rem 0.2rem;
+    background: none;
+    border: 0.4px solid #bcb4b4;
+    border-radius: 7px;
+
+} */
+
+.textInput{
+    display: inline;
+    padding: 1rem;
+    margin: 1.2rem 0.2rem;
+    background: none;
+    border: 0.4px solid #bcb4b4;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+}
+.app-box{
+    text-align: center;
+}
+
+button{
+    padding: 1rem;
+    border: none;
+    border-radius: 7px;
+    background: powderblue;
+    margin-right: 0.7rem;
+}
+
+.edit{
+    background-color: #9df396;
+}
+
+.delete{
+    background-color: #f4776e;
+}
+
+#todosList-box{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+span{
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+}
+
+ /* #todosList-box input{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1.2rem 0.2rem;
+    background: none;
+    border: none
+  
+ } */
+ .todo-input{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1.2rem 0.2rem;
+    background: none;
+    border: none;
+    outline: transparent;
+
+ }
+
+ .todo-input :focus{
+    border-color: none;
+ }
+

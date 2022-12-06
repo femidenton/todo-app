@@ -71,8 +71,11 @@ addButton.addEventListener('click', function(e){
         })
 
         todoDeleteButton.addEventListener('click', function(){
-            alert('Are you sure you want to delete this?')
-            todoDiv.remove()
+            if(confirm('Are you sure you want to delete this?')){
+                todoDiv.remove()
+               }else{
+                return false
+               }
         })
 
 
